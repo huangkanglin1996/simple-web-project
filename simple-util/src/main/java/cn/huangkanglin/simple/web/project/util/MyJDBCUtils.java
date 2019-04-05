@@ -286,6 +286,10 @@ public class MyJDBCUtils {
         return getBeans(connection, querySql, null, beanClass);
     }
 
+    public static List<Map<String, Object>> getMaps(Connection connection, String querySql) {
+        return getMaps(connection, querySql, null);
+    }
+
     /**
      * 将查询结果转换为Map序列
      *
@@ -312,10 +316,6 @@ public class MyJDBCUtils {
             e.printStackTrace();
         }
         return resultSetList;
-    }
-
-    public static List<Map<String, Object>> getMaps(Connection connection, String querySql) {
-        return getMaps(connection, querySql, null);
     }
 
     /**
