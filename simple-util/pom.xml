@@ -8,5 +8,34 @@
     <artifactId>simple-util</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <!--配置模块-->
+    <properties>
+        <!--配置工程编码-->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!--依赖模块-->
+    <dependencies>
+        <!-- jdbc链接 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.47</version>
+        </dependency>
+        <!-- 阿里数据源 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.1.15</version>
+        </dependency>
+        <!-- fast处理json的工具 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.56</version>
+        </dependency>
+
+    </dependencies>
+
 
 </project>
