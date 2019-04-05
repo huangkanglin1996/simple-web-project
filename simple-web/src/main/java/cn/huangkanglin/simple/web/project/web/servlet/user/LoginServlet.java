@@ -3,14 +3,12 @@ package cn.huangkanglin.simple.web.project.web.servlet.user;
 import cn.huangkanglin.simple.web.project.web.entitys.User;
 import cn.huangkanglin.simple.web.project.web.service.UserService;
 import cn.huangkanglin.simple.web.project.web.service.impl.UserServiceImpl;
-import com.alibaba.fastjson.JSONObject;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.Part;
 import java.io.IOException;
 
 /**
