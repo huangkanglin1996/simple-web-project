@@ -31,3 +31,4 @@ out
 gen
 /simple-web/src/main/resources/rebel.xml
 /simple-util/src/main/resources/rebel.xml
+/simple-web/target/
